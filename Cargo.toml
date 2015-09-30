@@ -1,0 +1,14 @@
+[package]
+name = "rust-finances"
+version = "0.1.0"
+authors = ["icandothings <icandothings@gmail.com>"]
+
+
+[dependencies]
+csv = "0.14.3"
+rustc-serialize = "0.3.16"
+rusqlite = "0.3.1"
+
+[dependencies.chrono]
+version = "0.2.16"
+features = ["rustc-serialize"]
